@@ -183,3 +183,86 @@
     color: gray;
     font-size: 18px;
 }
+
+.sobre{
+    background-color: #1B1D20;
+}
+
+.sobre-container {
+    width: 80vw;
+    height: auto;
+    margin: 0px auto;
+}
+
+.area-somos{
+    display: flex;
+    margin: 50px auto;
+}
+
+.historia{
+    width: 40vw;
+    height: auto;
+}
+
+.historia h3{
+    font-size: 26px;
+    font-weight: bold;
+    color: #ED6F5F;
+    text-align: center;
+}
+
+.historia-bistrot p{
+    padding: 20px 0px 10px 0px;
+    font-size: 18px;
+    color: gray;
+    text-align: left;
+}
+
+.chef{
+    width: 40vw;
+    height: auto;
+}
+
+.chef h3{
+    font-size: 26px;
+    font-weight: bold;
+    color: #ED6F5F;
+    text-align: center;
+}
+
+.historia-chef p{
+    padding: 20px 0px 10px 50px;
+    font-size: 18px;
+    color: gray;
+    text-align: left;
+}
+
+.sobre-empresa{
+    width: 80vw;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.card {
+    width: 20vw;
+    height: auto;
+    border-radius: 5px;
+}
+
+.card-title{
+    font-size: 22px;
+    font-weight: 500;
+    color: #ED6F5F;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.card-text{
+    padding: 20px;
+    font-size: 18px;
+    color: gray;
+    text-align: center;
+    font-style: italic
+}
