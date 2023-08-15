@@ -91,7 +91,7 @@
     color: #fff;
 }
 
-.cardapio{
+.cardapio {
     background-color: #1B1D20;
 }
 
@@ -101,13 +101,13 @@
     margin: 50px auto;
 }
 
-.titulo-secao{
+.titulo-secao {
     padding-top: 5px;
     border-top: 1px solid gray;
     border-bottom: 1px solid gray;
 }
 
-.titulo-secao h1{
+.titulo-secao h1 {
     text-align: center;
     font-size: 40px;
     color: gray;
@@ -141,7 +141,7 @@
     margin: 0px 50px;
 }
 
-.titulo-opcao{
+.titulo-opcao {
     font-size: 26px;
     font-weight: bold;
     color: #ED6F5F;
@@ -158,17 +158,17 @@
 }
 
 .item-titulo {
-   width: 80%;
-   text-align: left;
+    width: 80%;
+    text-align: left;
 }
 
-.item-titulo p{
+.item-titulo p {
     font-size: 22px;
     color: #fff;
     font-weight: 600;
 }
 
-.item-preco{
+.item-preco {
     width: 20%;
     font-size: 22px;
     font-weight: 600;
@@ -176,7 +176,7 @@
     color: #fff;
 }
 
-.item-ingredientes{
+.item-ingredientes {
     width: 80%;
     height: auto;
     text-align: left;
@@ -184,7 +184,7 @@
     font-size: 18px;
 }
 
-.sobre{
+.sobre {
     background-color: #1B1D20;
 }
 
@@ -194,64 +194,62 @@
     margin: 0px auto;
 }
 
-.area-somos{
+.area-somos {
     display: flex;
     margin: 50px auto;
 }
 
-.historia{
+.historia {
     width: 40vw;
     height: auto;
 }
 
-.historia h3{
+.historia h3 {
     font-size: 26px;
     font-weight: bold;
     color: #ED6F5F;
     text-align: center;
 }
 
-.historia-bistrot p{
+.historia-bistrot p {
     padding: 20px 0px 10px 0px;
     font-size: 18px;
     color: gray;
     text-align: left;
 }
 
-.chef{
+.chef {
     width: 40vw;
     height: auto;
 }
 
-.chef h3{
+.chef h3 {
     font-size: 26px;
     font-weight: bold;
     color: #ED6F5F;
     text-align: center;
 }
 
-.historia-chef p{
+.historia-chef p {
     padding: 20px 0px 10px 50px;
     font-size: 18px;
     color: gray;
     text-align: left;
 }
 
-.sobre-empresa{
+.sobre-empresa {
     width: 80vw;
     height: auto;
     display: flex;
     justify-content: space-between;
-    
 }
 
 .card {
     width: 20vw;
     height: auto;
-    border-radius: 5px;
 }
 
-.card-title{
+.card-title {
     font-size: 26px;
     font-weight: bold;
     color: #ED6F5F;
@@ -259,10 +257,101 @@
     margin-top: 20px;
 }
 
-.card-text{
+.card-text {
     padding: 20px;
     font-size: 18px;
     color: gray;
     text-align: center;
     font-style: italic
+}
+
+.contato {
+    background-color: #1B1D20;
+}
+
+.contato-container {
+    width: 80vw;
+    height: auto;
+    margin: 50px auto;
+}
+
+.mapa {
+    width: 80vw;
+    height: 500px;
+    overflow: hidden;
+    margin: 50px auto;
+}
+
+.card-contato {
+    width: 80vw;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-contato-item {
+    width: 20vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-title-contato {
+    font-size: 26px;
+    font-weight: bold;
+    color: #ED6F5F;
+    text-align: center;
+    margin: 20px 0px;
+}
+
+.item-item {
+    margin: 5px 0;
+    display: flex;
+}
+
+.img-icon img {
+    width: 30px;
+    height: 30px;
+    color: red;
+}
+
+.texto {
+    color: gray;
+    font-size: 18px;
+    font-style: italic;
+    padding: 0px 15px;
+}
+
+a {
+    text-decoration: none;
+    color: gray;
+}
+
+.horarios {
+    display: flex;
+    color: gray;
+    margin: 10px 0;
+}
+
+.dia p {
+    font-size: 18px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.hora p {
+    font-size: 18px;
+    font-style: italic;
+}
+
+footer {
+    height: 30px;
+    background-color: #ED6F5F;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
 }
