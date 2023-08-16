@@ -355,3 +355,97 @@ footer {
     font-size: 18px;
     color: #fff;
 }
+
+@media (max-width: 768px) {
+    .box-menu {
+        flex-direction: column;
+    }
+
+    .entrada {
+        width: 80vw;
+        margin: 50px 0 0 0;
+    }
+
+    .principal {
+        width: 80vw;
+        margin: 30px 0 0 0;
+    }
+
+    .sobremesa {
+        width: 80vw;
+        margin: 30px 0;
+    }
+
+    .bebidas {
+        width: 80vw;
+        margin: 10px 0;
+    }
+
+    .item-titulo {
+        width: 70%;
+    }
+
+    .item-preco {
+        width: 30%;
+    }
+
+    .item-ingredientes {
+        width: 100%;
+    }
+
+    .area-somos {
+        flex-direction: column;
+        margin: 20px 0;
+    }
+
+    .historia,
+    .chef {
+        width: 80vw;
+        margin: 10px 0;
+    }
+
+    .historia-chef p {
+        padding: 20px 0px 10px 0px;
+    }
+
+    .sobre-empresa,
+    .card-contato {
+        flex-direction: column;
+    }
+
+    .menu,
+    .card,
+    .card-contato-item {
+        width: 80vw;
+    }
+}
+
+@media (max-width: 1024px) {
+    .menu{
+        width: 40vw;
+    }
+
+    .box-menu {
+        flex-direction: column;
+    }
+
+    .entrada {
+        width: 80vw;
+        margin: 50px 0 0 0;
+    }
+
+    .principal {
+        width: 80vw;
+        margin: 30px 0 0 0;
+    }
+
+    .sobremesa {
+        width: 80vw;
+        margin: 30px 0;
+    }
+
+    .bebidas {
+        width: 80vw;
+        margin: 10px 0;
+    }
+}
