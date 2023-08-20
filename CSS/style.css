@@ -356,7 +356,7 @@ footer {
     color: #fff;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 500px) {
     .box-menu {
         flex-direction: column;
     }
