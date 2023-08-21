@@ -420,7 +420,7 @@ footer {
     }
 }
 
-@media (max-width: 1024px) {
+@media screen and (min-width: 706px) and (max-width: 1024px) {
     .menu {
         width: 40vw;
     }
@@ -448,4 +448,19 @@ footer {
         width: 80vw;
         margin: 10px 0;
     }
+
+    .card-contato,
+    .sobre-empresa {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sobre-empresa{
+        margin: 30px 0;
+    }
+
+    .card,
+    .card-contato-item {
+        width: 80vw;
+    }    
 }
